@@ -20,7 +20,7 @@ namespace BDD_td5
         static void Main(string[] args)
         {
 
-            string connectionString = "SERVER=localhost;PORT=3306;DATABASE=cooking;UID=root;PASSWORD=DCshoes987;";
+            string connectionString = "SERVER=localhost;PORT=3306;DATABASE=cooking;UID=root;PASSWORD=<Password>;";
 
             MySqlConnection connection = new MySqlConnection(connectionString);
             bool connecte = false;
